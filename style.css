@@ -1,0 +1,58 @@
+
+      
+        .big-box
+        {
+            height: 50vh;
+            width: 30vw;
+            background-color: red;
+            padding: 20px;
+            margin: auto;
+            background-color: rgba(219, 211, 211, 0.644);
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        .small-box
+        {
+            height: 29vh;
+            width: 30vw;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          
+        }
+     
+        .small-box h2
+        {
+            text-align: center;
+        }
+        input
+        { 
+            height:25px;
+            width: 210px;
+            border: 1px solid #ccc;
+            border-radius:5px ;
+            margin-left: 30px;
+        }
+
+        button
+        {
+            height: 31px;
+            margin-left: 5px;
+            color: white;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #result
+        {
+            /* margin-top: 20px; */
+            font-size: 18px;
+            text-align: center;
+        }
